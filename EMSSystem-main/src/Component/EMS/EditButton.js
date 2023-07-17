@@ -23,7 +23,7 @@ export default function EditButton(props) {
             <Button variant="outlined" onClick={handleClickOpen}>
                 Edit
             </Button>
-            <div >
+            <div>
                 <Dialog open={open} onClose={handleClose} className='w-100' >
                     <DialogTitle>Edit Form</DialogTitle>
                     <TextField
