@@ -19,7 +19,7 @@ export default function EditButton(props) {
     };
 
     return (
-        <div  >
+        <div>
             <Button variant="outlined" onClick={handleClickOpen}>
                 Edit
             </Button>
